@@ -1,0 +1,2 @@
+# Warzone
+Link.qr
