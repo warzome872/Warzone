@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About raj</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <style>
+    body {
+      background: linear-gradient(to bottom, #0f172a, #1e293b);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background: #1e293b;
+      box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+      border-radius: 5px;
+      margin: 10px;
+    }
+    .header h1 {
+      color: yellow;
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .buttons button {
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 5px 10px;
+      font-weight: bold;
+    }
+    .buttons button:hover {
+      color: yellow;
+    }
+
+    .container {
+      background: #1e293b;
+      width: 80%;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+    .logo-upload {
+      width: 100px;
+      height: 100px;
+      margin: 10px auto;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid yellow;
+      box-shadow: 0 0 10px yellow;
+    }
+    .logo-upload img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .name {
+      color: yellow;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .info {
+      color: grey;
+      font-size: 16px;
+      margin: 5px 0;
+    }
+    .best-friend {
+      color: white;
+      font-size: 16px;
+      margin-top: 5px;
+    }
+
+    .mahadev-box {
+      background: #334155;
+      padding: 10px;
+      border-radius: 5px;
+      margin: -5px auto 10px;
+      width: 60%;
+      box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+      font-size: 18px;
+      color: yellow;
+    }
+
+    .skills-container, .additional-container {
+      background: #1e293b;
+      padding: 15px;
+      border-radius: 10px;
+      width: 95%;
+      max-width: 700px;
+      margin: 15px auto;
+      box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    }
+    .skills-heading, .additional-heading {
+      color: yellow;
+      font-size: 22px;
+      margin: 0;
+      padding: 10px 0;
+    }
+    .skills, .additional {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 10px auto;
+      width: 100%;
+    }
+    .skill-box, .extra-box {
+      background: #334155;
+      padding: 15px;
+      border-radius: 5px;
+      text-align: left;
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .icon {
+      color: #ffc107;
+      font-size: 24px;
+      width: 30px;
+      text-align: center;
+    }
+    .copyright {
+      font-size: 14px;
+      color: grey;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>raj</h1>
+    <div class="buttons">
+      <button>Home</button>
+      <button>My ID</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="logo-upload">
+      <img src="logo.png" alt="Profile Logo" />
+    </div>
+    <div class="name">raj</div>
+    <div class="info">Place: India | Age: 18</div>
+    <div class="best-friend">Best Friend: <span style="color: white;">RAJ</span></div>
+  </div>
+
+  <div class="mahadev-box">महादेव सदा साहित्य</div>
+
+  <div class="skills-container">
+    <div class="skills-heading">MY SKILLS AND KNOWLEDGE</div>
+    <div class="skills">
+      <div class="skill-box"><i class="fas fa-laptop-code icon"></i> Web Developer [PHP, JS]</div>
+      <div class="skill-box"><i class="fas fa-code icon"></i> Hack Maker [C++, Java]</div>
+      <div class="skill-box"><i class="fas fa-mobile icon"></i> App Developer [Sketchware, Flutter, AIDE]</div>
+      <div class="skill-box"><i class="fas fa-shield-halved icon"></i> Hacking</div>
+      <div class="skill-box"><i class="fas fa-terminal icon"></i> Termux Expert</div>
+      <div class="skill-box"><i class="fas fa-network-wired icon"></i> Network Security</div>
+    </div>
+  </div>
+
+  <div class="additional-container">
+    <div class="additional-heading">King of Website Development</div>
+    <div class="additional">
+      <div class="extra-box"><i class="fas fa-link icon"></i> Main Channel</div>
+      <div class="extra-box"><i class="fas fa-id-card icon"></i> My ID</div>
+      <div class="extra-box"><i class="fas fa-cogs icon"></i> More Skills</div>
+    </div>
+  </div>
+
+  <div class="copyright">© 2025 raj. All Rights Reserved.</div>
+
+</body>
+</html>
